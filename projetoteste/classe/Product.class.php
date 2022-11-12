@@ -6,7 +6,7 @@ class Product{
     private $value;
     private $quantity;
 
-    public function Product($d, $c, $v, $q) {
+    public function __construct($d, $c, $v, $q) {
         $this->setDescription($d);
         $this->setCode($c);
         $this->setValue($v);

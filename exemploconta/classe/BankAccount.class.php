@@ -77,7 +77,7 @@ class BankAccount {
         }
     }
 
-    public function Depostit($value) {
+    public function Deposit($value) {
         if ($this->getStatus()){
             $this->setBalance($this->getBalance() + $value);
         } 
